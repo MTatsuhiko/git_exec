@@ -11,19 +11,21 @@ git reset HEAD
 git checkout 
 git rm --cached
 git move [old] [new]
+
+
 git remote add origin [url]
+
 git push origin master
 
-# 変更の取り消し
+# 螟画峩縺ｮ蜿悶ｊ豸医＠
 git checkout --[filename]
 git checkout --[dirname]
 git checkout -- .
 
-# Stage に追加した変更の取り消し
+# Stage 縺ｫ霑ｽ蜉縺励◆螟画峩縺ｮ蜿悶ｊ豸医＠
 git reset HEAD [filename]
 git reset HEAD [dirname]
 git reset HEAD .
 
-.gitignore ファイル
-
+.gitignore 繝輔ぃ繧､繝ｫ
 
