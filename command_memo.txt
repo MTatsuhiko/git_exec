@@ -12,6 +12,10 @@ git checkout
 git rm --cached
 git move [old] [new]
 
+# リポジトリのcommit状況の確認など
+git log --oneline -n 2
+git log --oneline --decorate
+
 
 # リモートリポジトリの登録
 git remote add origin [url]
@@ -45,9 +49,9 @@ git fetch origin
 git branch -a
 
 
-# リポジトリの切り替え
-git checkout remote/origin/master
-git checkout master
+# リポジトリ/ブランチの切り替え
+git checkout [branchname]
+git checkout -b [new branchname]    <- ブランチを新規作成してから切り替える。
 
 
 # リモートリポジトリからの情報の取得（pull）
@@ -66,3 +70,15 @@ git remote rename [oldname] [newname]
 
 # リモート名の削除
 git remote rm [remotename]
+
+# ブランチを新規追加する
+git branch [branchname]
+
+# ブランチの一覧を確認する
+git branch
+git branch -a   <- remote リポジトリも表示
+
+
+
+
+
