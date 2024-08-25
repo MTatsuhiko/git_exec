@@ -13,10 +13,16 @@ git rm --cached
 git move [old] [new]
 git remote add origin [url]
 git push origin master
+
+# 変更の取り消し
 git checkout --[filename]
 git checkout --[dirname]
 git checkout -- .
 
+# Stage に追加した変更の取り消し
+git reset HEAD [filename]
+git reset HEAD [dirname]
+git reset HEAD .
 
 .gitignore ファイル
 
