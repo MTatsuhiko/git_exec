@@ -13,6 +13,10 @@ git rm --cached
 git move [old] [new]
 git remote add origin [url]
 git push origin master
+git checkout --[filename]
+git checkout --[dirname]
+git checkout -- .
+
 
 .gitignore ƒtƒ@ƒCƒ‹
 
