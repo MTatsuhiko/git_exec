@@ -13,8 +13,11 @@ git rm --cached
 git move [old] [new]
 
 
+# リモートリポジトリの登録
 git remote add origin [url]
+git remote add [リポジトリ名] [url]
 
+# リモートリポジトリへの登録
 git push origin master
 
 # 変更の取り消し
@@ -32,4 +35,11 @@ git reset HEAD .
 # commit の変更
 git commit --amend
 
+# リモートリポジトリの確認
+git remote
+git remote -v
+
+# リモートリポジトリからの情報取得
+git fetch [remotename]
+git fetch origin
 
