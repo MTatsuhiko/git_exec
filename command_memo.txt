@@ -82,7 +82,9 @@ git branch -a   <- remote リポジトリも表示
 git merge [branchname]
 git merge [remotename]/[branchname]
 
-aaa
-
+# ブランチの変更・削除
+git branch -m [branchname]  <- 現在、作業中のbranch名を変更
+git branch -d [branchname]  <- ブランチを削除する
+git branch -D [branchname]  <- ブランチを強制削除する
 
 
