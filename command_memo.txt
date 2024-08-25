@@ -29,3 +29,7 @@ git reset HEAD .
 
 .gitignore ファイル
 
+# commit の変更
+git commit --amend
+
+
