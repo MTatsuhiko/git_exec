@@ -42,4 +42,14 @@ git remote -v
 # リモートリポジトリからの情報取得
 git fetch [remotename]
 git fetch origin
+git branch -a
+
+
+# リポジトリの切り替え
+git checkout remote/origin/master
+git checkout master
+
+
+
+
 
