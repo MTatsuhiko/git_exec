@@ -78,6 +78,9 @@ git branch [branchname]
 git branch
 git branch -a   <- remote リポジトリも表示
 
+# 変更履歴をマージする
+git merge [branchname]
+git merge [remotename]/[branchname]
 
 
 
