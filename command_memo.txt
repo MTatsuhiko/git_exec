@@ -50,6 +50,19 @@ git checkout remote/origin/master
 git checkout master
 
 
+# リモートリポジトリからの情報の取得（pull）
+git pull [remotename] [branchname]
+git pull origin master
+
+git pull
+
+# リモートの詳細を表示する
+git remote show [remotename]
+git remote show origin
 
 
+# リモート名の変更
+git remote rename [oldname] [newname]
 
+# リモート名の削除
+git remote rm [remotename]
