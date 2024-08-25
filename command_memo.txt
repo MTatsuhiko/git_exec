@@ -82,6 +82,7 @@ git branch -a   <- remote リポジトリも表示
 git merge [branchname]
 git merge [remotename]/[branchname]
 
+aaa
 
 
 
